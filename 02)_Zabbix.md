@@ -42,7 +42,7 @@
 
    **sudo -u postgres createuser --pwprompt zabbix**
    
-   **sudo -u postgres createdb -O zabbix zabbix **
+   **sudo -u postgres createdb -O zabbix zabbix**
    
 7. Выполните все необходимые команды для установки Zabbix Server и Zabbix Web Server.
 

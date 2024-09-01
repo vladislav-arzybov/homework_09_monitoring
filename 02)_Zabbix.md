@@ -96,12 +96,18 @@
    **sed -i 's/Server=127.0.0.1/Server=192.168.123.1/g' /etc/zabbix/zabbix_agentd.conf**
 
    **systemctl restart zabbix-agent**
-   
+
+   ![изображение](https://github.com/user-attachments/assets/e5c7602f-a53a-4bb8-b518-ed8697fbcaca)
+
 6. Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera.
 
    ![изображение](https://github.com/user-attachments/assets/5814cc1b-8dcb-4dc2-919c-aa612817152b)
 
 8. Проверьте, что в разделе Latest Data начали появляться данные с добавленных агентов.
+
+   ![изображение](https://github.com/user-attachments/assets/269778f5-a2ff-46ca-95a7-af9336951218)
+
+   ![изображение](https://github.com/user-attachments/assets/769b7371-5021-4c60-b43e-d40d545542f3)
 
 #### Требования к результаты 
 1. Приложите в файл README.md скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу

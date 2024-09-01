@@ -43,6 +43,14 @@
    **sudo -u postgres createuser --pwprompt zabbix**
    
    **sudo -u postgres createdb -O zabbix zabbix**
+
+   **zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix**
+
+   **sed -i 's/# DBPassword=/DBPassword=12345/g' /etc/zabbix/zabbix_server.conf**
+
+   **systemctl restart zabbix-server zabbix-agent apache2**
+
+   **systemctl enable zabbix-server zabbix-agent apache2**
    
 7. Выполните все необходимые команды для установки Zabbix Server и Zabbix Web Server.
 

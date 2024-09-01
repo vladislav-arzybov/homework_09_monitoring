@@ -21,9 +21,23 @@
 
 #### Процесс выполнения
 1. Выполняя ДЗ, сверяйтесь с процессом отражённым в записи лекции.
-2. Установите PostgreSQL. Для установки достаточна та версия, что есть в системном репозитороии Debian 11.
-3. Пользуясь конфигуратором команд с официального сайта, составьте набор команд для установки последней версии Zabbix с поддержкой PostgreSQL и Apache.
-4. Выполните все необходимые команды для установки Zabbix Server и Zabbix Web Server.
+
+   **sudo apt update**
+   
+3. Установите PostgreSQL. Для установки достаточна та версия, что есть в системном репозитороии Debian 11.
+
+   **sudo apt install postgresql**
+   
+5. Пользуясь конфигуратором команд с официального сайта, составьте набор команд для установки последней версии Zabbix с поддержкой PostgreSQL и Apache.
+
+**   sudo -s**
+**   wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_7.0-2+ubuntu22.04_all.deb**
+**   dpkg -i zabbix-release_7.0-2+ubuntu22.04_all.deb**
+**   apt update**
+
+**   apt install zabbix-server-pgsql zabbix-frontend-php php8.1-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent**
+   
+7. Выполните все необходимые команды для установки Zabbix Server и Zabbix Web Server.
 
 #### Требования к результаты 
 1. Прикрепите в файл README.md скриншот авторизации в админке.

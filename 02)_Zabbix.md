@@ -39,6 +39,9 @@
    **apt update**
 
    **apt install zabbix-server-pgsql zabbix-frontend-php php8.1-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent**
+
+   # sudo -u postgres createuser --pwprompt zabbix
+   # sudo -u postgres createdb -O zabbix zabbix 
    
 7. Выполните все необходимые команды для установки Zabbix Server и Zabbix Web Server.
 

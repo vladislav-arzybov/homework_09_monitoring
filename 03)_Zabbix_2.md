@@ -53,9 +53,21 @@
    ![363482605-f99029ad-c8aa-4a66-b0c1-cd6ff5aa145d](https://github.com/user-attachments/assets/2e082ad7-accd-4cf1-ae89-b9ed99360c9e)
 
 4. Добавьте Zabbix Server в список разрешенных серверов ваших Zabbix Agentов
-5. Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera
-6. Прикрепите за каждым хостом шаблон Linux by Zabbix Agent
-7. Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
+
+   ![изображение](https://github.com/user-attachments/assets/e581c04f-ac6d-4461-91bf-81dda22f64f8)
+
+   ![изображение](https://github.com/user-attachments/assets/72e312c9-3464-4d06-a344-d598aecf00d4)
+
+6. Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera  
+8. Прикрепите за каждым хостом шаблон Linux by Zabbix Agent
+
+   ![изображение](https://github.com/user-attachments/assets/b5d35184-2ef1-478a-8467-5f65e68e02c5)
+
+9. Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
+
+   ![изображение](https://github.com/user-attachments/assets/8f045521-fb4e-4ced-af1a-c43b408f7bdb)
+
+   ![изображение](https://github.com/user-attachments/assets/f3828e5b-fdde-457d-90d6-5d338d817abb)
 
 #### Требования к результату
 - [ ] Результат данного задания сдавайте вместе с заданием 3

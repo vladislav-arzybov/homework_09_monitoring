@@ -51,6 +51,8 @@
    **systemctl restart zabbix-server zabbix-agent apache2**
 
    **systemctl enable zabbix-server zabbix-agent apache2**
+
+   ![изображение](https://github.com/user-attachments/assets/9e88f489-bcc4-405c-8711-317849096cfd)
    
 7. Выполните все необходимые команды для установки Zabbix Server и Zabbix Web Server.
 

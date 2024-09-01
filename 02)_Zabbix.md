@@ -121,6 +121,17 @@
 
 #### Требования к результаты 
 1. Приложите в файл README.md скриншот раздела Latest Data, где видно свободное место на диске C:
+
+   ![изображение](https://github.com/user-attachments/assets/7832d3a5-7877-408f-99f8-32a750f70ede)
+
+   ![изображение](https://github.com/user-attachments/assets/04d58670-a375-465e-a117-40fb5159614e)
+
+   ![изображение](https://github.com/user-attachments/assets/7d05af1a-aa75-4bc5-9476-1dcf4916ad9b)
+
+   ![изображение](https://github.com/user-attachments/assets/c59cf8b7-1c8f-44e0-b908-07839c344456)
+
+   ![изображение](https://github.com/user-attachments/assets/460be52c-95c0-4bfd-a1a7-9237206f363e)
+
 --- 
 
 ## Критерии оценки

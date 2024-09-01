@@ -94,6 +94,8 @@
 4. Добавьте Zabbix Server в список разрешенных серверов ваших Zabbix Agentов.
 
    **sed -i 's/Server=127.0.0.1/Server=192.168.123.1/g' /etc/zabbix/zabbix_agentd.conf**
+
+   **systemctl restart zabbix-agent**
    
 6. Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera.
 7. Проверьте, что в разделе Latest Data начали появляться данные с добавленных агентов.

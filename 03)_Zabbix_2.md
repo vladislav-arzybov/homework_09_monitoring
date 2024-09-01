@@ -47,10 +47,15 @@
 #### Процесс выполнения
 1. Выполняя ДЗ сверяйтесь с процессом отражённым в записи лекции.
 2. Установите Zabbix Agent на 2 виртмашины, одной из них может быть ваш Zabbix Server
-3. Добавьте Zabbix Server в список разрешенных серверов ваших Zabbix Agentов
-4. Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera
-5. Прикрепите за каждым хостом шаблон Linux by Zabbix Agent
-6. Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
+
+   ![363482510-89f00078-117e-434d-a4e4-d739eed2bc37](https://github.com/user-attachments/assets/cfda67d2-123f-45e1-8113-747b022d28cc)
+
+   ![363482605-f99029ad-c8aa-4a66-b0c1-cd6ff5aa145d](https://github.com/user-attachments/assets/2e082ad7-accd-4cf1-ae89-b9ed99360c9e)
+
+4. Добавьте Zabbix Server в список разрешенных серверов ваших Zabbix Agentов
+5. Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera
+6. Прикрепите за каждым хостом шаблон Linux by Zabbix Agent
+7. Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
 
 #### Требования к результату
 - [ ] Результат данного задания сдавайте вместе с заданием 3

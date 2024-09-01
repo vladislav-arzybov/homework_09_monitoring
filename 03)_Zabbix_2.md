@@ -28,17 +28,16 @@
 4. Создайте Item который будет собирать информацию об загрузке CPU в процентах
 5. Создайте Item который будет собирать информацию об загрузке RAM в процентах
 
-   ![изображение](https://github.com/user-attachments/assets/a4890a3b-f99b-47de-a4f2-dcfb65b29a9c)
+   ![изображение](https://github.com/user-attachments/assets/5a18ecd1-ba67-43e5-9a82-7df984a236e2)
 
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»
 
-  ![изображение](https://github.com/user-attachments/assets/638f0876-5327-49dc-a759-87cdc76cf8c1)
+  ![изображение](https://github.com/user-attachments/assets/781d9ada-f442-4f85-b2c6-1e4f1d2d4f36)
 
   ![изображение](https://github.com/user-attachments/assets/a45e9fa3-96e7-4d0c-9592-719add321a15)
 
-
-      
+    
 
  ---
 
